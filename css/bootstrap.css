@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background: -webkit-linear-gradient(left, #b2ffb2 , #e5ffe5);
 }
 article,
 aside,
@@ -84,7 +85,12 @@ sub {
   bottom: -.25em;
 }
 img {
-  border: 0;
+  width: 100%;
+}
+
+img:hover {
+  border: 10px solid green;
+  opacity: 0.5;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -4956,11 +4962,12 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 10px;
+  padding: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  color: black;
+  background-color: white;
+  ;
 }
 .jumbotron h1,
 .jumbotron .h1 {
